@@ -1,8 +1,47 @@
 {
-  "posts": [
+  "users": [
     {
       "id": 1,
-      "title": "hello"
+      "name": "user1"
+    }
+  ],
+  "bikes": [
+    {
+      "id": 1,
+      "model": "Sport bike",
+      "color": "Red",
+      "location": "Center",
+      "rating": 5
+    },
+    {
+      "id": 2,
+      "model": "Simple bike",
+      "color": "Red",
+      "location": "Park",
+      "rating": 4.5
+    },
+    {
+      "id": 3,
+      "model": "Old bike",
+      "color": "Red",
+      "location": "Park",
+      "rating": 4
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "user": 1,
+      "bike": 1,
+      "startDate": "2022-05-02T12:00:0.000Z",
+      "endDate": "2022-05-03T12:0:0.000Z"
+    },
+    {
+      "id": 2,
+      "user": 1,
+      "bike": 2,
+      "startDate": "2022-05-03T12:00:00.000",
+      "endDate": "2022-05-04T12:00:0.0"
     }
   ],
   "profile": {
