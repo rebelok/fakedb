@@ -31,14 +31,14 @@
   "reservations": [
     {
       "id": 1,
-      "user": 1,
-      "bike": 1,
+      "userId": 1,
+      "bikeId": 1,
       "date": "2022-05-05"
     },
     {
       "id": 2,
-      "user": 1,
-      "bike": 2,
+      "userId": 1,
+      "bikeId": 2,
       "date": "2022-05-06"
     }
   ],
