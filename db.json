@@ -18,14 +18,14 @@
     {
       "id": 2,
       "model": "Simple bike",
-      "color": "Red",
+      "color": "Blue",
       "location": "Park",
       "rating": 4.5
     },
     {
       "id": 3,
       "model": "Old bike",
-      "color": "Red",
+      "color": "Green",
       "location": "Park",
       "rating": 4
     }
