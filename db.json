@@ -2,7 +2,9 @@
   "users": [
     {
       "id": 1,
-      "name": "user1"
+      "email": "admin@admin.com",
+      "password": "admin",
+      "isAdmin": true
     }
   ],
   "bikes": [
