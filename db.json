@@ -5,6 +5,12 @@
       "email": "admin@admin.com",
       "password": "admin",
       "isAdmin": true
+    },
+    {
+      "id": 2,
+      "email": "user@user.com",
+      "password": "user",
+      "isAdmin": false
     }
   ],
   "bikes": [
@@ -33,15 +39,33 @@
   "reservations": [
     {
       "id": 1,
-      "userId": 1,
+      "userId": 2,
       "bikeId": 1,
-      "date": "2022-05-05"
+      "date": "2022-05-06"
     },
     {
       "id": 2,
-      "userId": 1,
+      "userId": 2,
       "bikeId": 2,
-      "date": "2022-05-06"
+      "date": "2022-05-07"
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "bikeId": 3,
+      "date": "2022-05-08"
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "bikeId": 2,
+      "date": "2022-05-09"
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "bikeId": 2,
+      "date": "2022-05-10"
     }
   ],
   "profile": {
